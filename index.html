@@ -76,11 +76,10 @@ body {
 	z-index: 1;
 }
 		</style>
-		<link id="-gd-engine-icon" rel="icon" type="image/png" href="jolt-test.icon.png" />
-<link rel="apple-touch-icon" href="jolt-test.apple-touch-icon.png"/>
-<link rel="manifest" href="jolt-test.manifest.json">
-Cross-Origin-Opener-Policy: same-origin
-Cross-Origin-Embedder-Policy: require-corp
+		<link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
+<link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
+<link rel="manifest" href="index.manifest.json">
+<script src="coi-serviceworker.js"></script>
 	</head>
 	<body>
 		<canvas id="canvas">
@@ -92,14 +91,14 @@ Cross-Origin-Embedder-Policy: require-corp
 		</noscript>
 
 		<div id="status">
-			<img id="status-splash" src="jolt-test.png" alt="">
+			<img id="status-splash" src="index.png" alt="">
 			<progress id="status-progress"></progress>
 			<div id="status-notice"></div>
 		</div>
 
-		<script src="jolt-test.js"></script>
+		<script src="index.js"></script>
 		<script>
-const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"jolt-test","experimentalVK":false,"fileSizes":{"jolt-test.pck":16416,"jolt-test.wasm":1645895},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":"jolt-test.service.worker.js"};
+const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":16704,"index.wasm":1645895},"focusCanvas":true,"gdextensionLibs":[],"serviceWorker":"index.service.worker.js"};
 const GODOT_THREADS_ENABLED = true;
 const engine = new Engine(GODOT_CONFIG);
 
