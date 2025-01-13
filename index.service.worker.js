@@ -4,7 +4,7 @@
 // Incrementing CACHE_VERSION will kick off the install event and force
 // previously cached resources to be updated from the network.
 /** @type {string} */
-const CACHE_VERSION = '1736601461|24585928230';
+const CACHE_VERSION = '1736743635|26076368091';
 /** @type {string} */
 const CACHE_PREFIX = 'jolt-test-sw-cache-';
 const CACHE_NAME = CACHE_PREFIX + CACHE_VERSION;
